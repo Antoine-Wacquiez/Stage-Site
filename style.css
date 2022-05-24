@@ -10,6 +10,7 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -165,3 +166,15 @@ footer .services .service a:hover{
         padding: 30px;
     }
 }
+
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 40px;
+  }
+      
